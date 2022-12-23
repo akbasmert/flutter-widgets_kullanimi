@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:widgets_kullanimi/anasayfa.dart';
+import 'package:widgets_kullanimi/odev4/odev_anasayfa.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: const Anasayfa()
+      home: const OdevAnasayfa()  //Anasayfa()
     );
   }
 }
