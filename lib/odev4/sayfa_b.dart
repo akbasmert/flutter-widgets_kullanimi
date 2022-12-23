@@ -19,7 +19,7 @@ class _SayfaBState extends State<SayfaB> {
             Text("Sayfa B"),
 
             ElevatedButton(onPressed: (){
-              Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> SayfaY())); // push yerine pushReplament diyerek geri tuşu ile direk anasayfaya dönus sahladık
+              Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> SayfaY()));
 
             }, child: Text("Git Y"))
           ],

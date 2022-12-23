@@ -18,7 +18,7 @@ class _SayfaAState extends State<SayfaA> {
           children: [
             Text("Sayfa A"),
             ElevatedButton(onPressed: (){
-              Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> SayfaB())); // push yerine pushReplament diyerek geri tuşu ile direk anasayfaya dönus sahladık
+              Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> SayfaB()));
 
             }, child: Text("Git B"))
           ],

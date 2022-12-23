@@ -19,12 +19,12 @@ class _OdevAnasayfaState extends State<OdevAnasayfa> {
           children: [
             Text("ANASAYFA"),
             ElevatedButton(onPressed: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context)=> SayfaA())); // push yerine pushReplament diyerek geri tuşu ile direk anasayfaya dönus sahladık
+              Navigator.push(context, MaterialPageRoute(builder: (context)=> SayfaA()));
 
             }, child: Text("Git A"),
             ),
             ElevatedButton(onPressed: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context)=> SayfaX())); // push yerine pushReplament diyerek geri tuşu ile direk anasayfaya dönus sahladık
+              Navigator.push(context, MaterialPageRoute(builder: (context)=> SayfaX()));
 
             }, child: Text("Git X"),
             ),
